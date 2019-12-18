@@ -1,0 +1,47 @@
+{
+   "form":[
+      {
+         "title":"Registration",
+         "components":[
+            {
+               "label":"General Details",
+               "type":"textview"
+            },
+            {
+               "label":"Full Name",
+               "type":"edittext",
+               "regex":"([a-zA-Z]{3,30}\\s*)+",
+               "required":true,
+               "data":""
+            },
+            {
+               "label":[
+                  "CASH",
+                  "WALLET",
+                  "NET BANKING"
+               ],
+               "type":"radiobutton",
+               "required":true,
+               "multichoice":false,
+               "data":[
+                  "CASH"
+               ]
+            },
+            {
+               "label":[
+                  "SAMSUNG",
+                  "OPPO",
+                  "MOTO",
+                  "IPHONE"
+               ],
+               "type":"checkbox",
+               "required":true,
+               "multichoice":true,
+               "data":[
+                  "OPPO"
+               ]
+            }
+         ]
+      }
+   ]
+}
