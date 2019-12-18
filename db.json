@@ -4,15 +4,15 @@
          "title":"Registration",
          "components":[
             {
-               "label":"General Details",
+               "label":["General Details"],
                "type":"textview"
             },
             {
-               "label":"Full Name",
+               "label":["Full Name"],
                "type":"edittext",
                "regex":"([a-zA-Z]{3,30}\\s*)+",
                "required":true,
-               "data":""
+               "data":[]
             },
             {
                "label":[
